@@ -4,7 +4,7 @@
 
 # Set to true, if you want to fully override the default configuration.
 # Useful if you don't want to inherit the theme _config.yml configurations.
-override: false
+override: true
 
 # Allow to cache content generation. Introduced in NexT v6.0.0.
 cache:
@@ -225,18 +225,19 @@ post_meta:
   updated_at: false
   categories: true
 
-# Post wordcount display settings
-# Dependencies: https://github.com/theme-next/hexo-symbols-count-time
-symbols_count_time:
-  symbols: true
-  time: true
-  total_symbols: true
-  total_time: true
-  # separated_meta: true
-  # item_text_post: true
-  # item_text_total: true
-  # awl: 5
-  # wpm: 200
+# # Post wordcount display settings
+# # Dependencies: https://github.com/theme-next/hexo-symbols-count-time
+# symbols_count_time:
+#   separated_meta: true
+#   item_text_post: true
+#   item_text_total: true
+#   awl: 5
+#   wpm: 200
+# symbols_count_time:
+#   symbols: true
+#   time: true
+#   total_symbols: true
+#   total_time: true
 
 # Wechat Subscriber
 #wechat_subscriber:
@@ -659,7 +660,7 @@ tabs:
 # Reading progress bar
 # Dependencies: https://github.com/theme-next/theme-next-reading-progress
 reading_progress:
-  enable: false
+  enable: true
   color: "#37c6c0"
   height: 2px
 
@@ -704,7 +705,7 @@ lazyload: false
 
 # Progress bar in the top during page loading.
 # Dependencies: https://github.com/theme-next/theme-next-pace
-pace: false
+pace: true
 # Themes list:
 #pace-theme-big-counter
 #pace-theme-bounce
@@ -721,7 +722,8 @@ pace: false
 #pace-theme-minimal
 # For example
 # pace_theme: pace-theme-center-simple
-pace_theme: pace-theme-minimal
+# pace_theme: pace-theme-minimal
+pace_theme: pace-theme-center-circle
 
 # Canvas-nest
 # Dependencies: https://github.com/theme-next/theme-next-canvas-nest
