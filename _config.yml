@@ -347,7 +347,12 @@ font:
 mathjax:
   enable: false
   per_page: false
-  cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
+  # For newMathJax CDN (cdnjs.cloudflare.com) with fallback to oldMathJax (cdn.mathjax.org).
+  cdn: //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+  # For direct link to MathJax.js with CloudFlare CDN (cdnjs.cloudflare.com).
+  #cdn: //cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML
+  # For automatic detect latest varsion link to MathJax.js and get from CloudFlare.
+  #cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
 
 # Han Support
 # Dependencies: https://github.com/theme-next/theme-next-han
@@ -607,7 +612,7 @@ algolia_search:
     hits_stats: "${hits} results found in ${time} ms"
 
 # Local search
-# Dependencies: https://github.com/flashlab/hexo-generator-search
+# Dependencies: https://github.com/theme-next/hexo-generator-searchdb
 local_search:
   enable: false
   # if auto, trigger search by changing input
@@ -683,8 +688,10 @@ motion:
     # Only for Pisces | Gemini.
     sidebar: slideUpIn
 
-# Fancybox
-# Dependencies: https://github.com/theme-next/theme-next-fancybox
+# Fancybox. There is support for old version 2 and new version 3.
+# Please, choose only any one variant, do not need to install both.
+# For install 2.x: https://github.com/theme-next/theme-next-fancybox
+# For install 3.x: https://github.com/theme-next/theme-next-fancybox3
 fancybox: false
 
 # Added switch option for separated repo in 6.0.0.
