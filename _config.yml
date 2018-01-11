@@ -477,7 +477,7 @@ needmoreshare2:
 #google_site_verification:
 
 # Google Analytics
-#google_analytics:
+google_analytics: UA-100475240-1
 
 # Bing Webmaster tools verification setting
 # See: https://www.bing.com/webmaster/
@@ -724,7 +724,7 @@ pace: true
 # For example
 # pace_theme: pace-theme-center-simple
 # pace_theme: pace-theme-minimal
-pace_theme: pace-theme-center-circle
+pace_theme: pace-theme-loading-bar
 
 # Canvas-nest
 # Dependencies: https://github.com/theme-next/theme-next-canvas-nest
