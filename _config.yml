@@ -90,7 +90,7 @@ index_with_subtitle: false
 menu:
   home: / || home
   Resume: /resume/ || user
-  #tags: /tags/ || tags
+  tags: /tags/ || tags
   #categories: /categories/ || th
   archives: /archives/ || archive
   #schedule: /schedule/ || calendar
@@ -265,7 +265,7 @@ post_copyright:
 # ---------------------------------------------------------------
 
 # Reduce padding / margin indents on devices with narrow width.
-mobile_layout_economy: false
+mobile_layout_economy: true
 
 # Android Chrome header panel color ($black-deep).
 android_chrome_color: "#222"
