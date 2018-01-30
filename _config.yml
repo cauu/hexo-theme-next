@@ -113,9 +113,9 @@ index_with_subtitle: false
 menu:
   home: / || home
   Resume: /resume/ || user
+  categories: /categories/ || th
   tags: /tags/ || tags
-  #categories: /categories/ || th
-  archives: /archives/ || archive
+  Timelines: /archives/ || archive
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
