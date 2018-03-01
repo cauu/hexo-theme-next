@@ -6,11 +6,11 @@
 
 <p align="center">«NexT» 是一款风格优雅的高质量 <a href="http://hexo.io">Hexo</a> 主题，自点点滴滴中用爱雕琢而成。</p>
 
-[![lang-image]][lang-url]
 [![gitter-image]][gitter-url]
 [![riot-image]][riot-url]
 [![t-chat-image]][t-chat-url]
 [![t-news-image]][t-news-url]
+[![lang-image]][lang-url]
 [![travis-image]][travis-url]
 [![rel-image]][releases-url]
 [![hexo-image]][hexo-url]
@@ -21,7 +21,7 @@
 * :heart_decoration: Muse 主题: [LEAFERx](https://leaferx.online) | [XiaMo](https://notes.wanghao.work) | [OAwan](https://oawan.me)
 * :six_pointed_star: Mist 主题: [Jeff](https://blog.zzbd.org) | [uchuhimo](http://uchuhimo.me) | [xirong](http://www.ixirong.com)
 * :pisces: Pisces 主题: [Vi](http://notes.iissnan.com) | [Acris](https://acris.me) | [Rainy](https://rainylog.com)
-* :gemini: Gemini 主题: [Ivan.Nginx](https://almostover.ru) | [Alynx](http://sh.alynx.xyz) | [Raincal](https://raincal.top)
+* :gemini: Gemini 主题: [Ivan.Nginx](https://almostover.ru) | [Alynx](http://sh.alynx.xyz) | [Raincal](https://raincal.com)
 
 更多 «NexT» 的例子参见[这里](https://github.com/iissnan/hexo-theme-next/issues/119)。
 
@@ -82,8 +82,8 @@ $ git pull
 [browser-image]: https://img.shields.io/badge/browser-%20chrome%20%7C%20firefox%20%7C%20opera%20%7C%20safari%20%7C%20ie%20%3E%3D%209-lightgrey.svg
 [browser-url]: https://www.browserstack.com
 
-[lang-image]: https://img.shields.io/badge/languages-15-orange.svg "使用 GitLocalize 添加或改進翻譯!"
-[lang-url]: https://gitlocalize.com/repo/679
+[lang-image]: https://d322cqt584bo4o.cloudfront.net/theme-next/localized.svg "请花几秒钟来添加或修正翻译！"
+[lang-url]: https://crwd.in/theme-next
 
 [gitter-image]: https://badges.gitter.im/Join%20Chat.svg
 [gitter-url]: https://gitter.im/theme-next
@@ -116,6 +116,6 @@ $ git pull
 [tags-url]: https://github.com/theme-next/hexo-theme-next/tags
 [commits-url]: https://github.com/theme-next/hexo-theme-next/commits/master
 
-[docs-installation-url]: https://github.com/theme-next/hexo-theme-next/blob/master/docs/zh-Hans/INSTALLATION.md
-[docs-data-files-url]: https://github.com/theme-next/hexo-theme-next/blob/master/docs/zh-Hans/DATA-FILES.md
-[docs-update-5-1-x-url]: https://github.com/theme-next/hexo-theme-next/blob/master/docs/zh-Hans/UPDATE-FROM-5.1.X.md
+[docs-installation-url]: https://github.com/theme-next/hexo-theme-next/blob/master/docs/zh-CN/INSTALLATION.md
+[docs-data-files-url]: https://github.com/theme-next/hexo-theme-next/blob/master/docs/zh-CN/DATA-FILES.md
+[docs-update-5-1-x-url]: https://github.com/theme-next/hexo-theme-next/blob/master/docs/zh-CN/UPDATE-FROM-5.1.X.md
