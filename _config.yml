@@ -53,9 +53,6 @@ favicon:
   #android_manifest: /images/manifest.json
   #ms_browserconfig: /images/browserconfig.xml
 
-# Set default keywords (Use a comma to separate)
-keywords: "Dandy Xu's Pit, Wenqian Xu's Personal Website"
-
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
 # Set rss to specific value if you have burned your feed already.
@@ -67,7 +64,14 @@ footer:
   #since: 2015
 
   # Icon between year and copyright info.
-  icon: user
+  icon: 
+    # Icon name in fontawesome, see: https://fontawesome.com/v4.7.0/icons
+    # `heart` is recommended with animation in red (#ff0000).
+    name: user
+    # If you want to animate the icon, set it to true.
+    animated: false
+    # Change the color of icon, using Hex Code.
+    color: "#808080"
 
   # If not defined, will be used `author` from Hexo main config.
   copyright:
@@ -111,7 +115,7 @@ index_with_subtitle: false
 # Value before `||` delimeter is the target link.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, question icon will be loaded.
 menu:
-  home: / || home
+  Home: / || home
   Resume: /resume/ || user
   categories: /categories/ || th
   tags: /tags/ || tags
@@ -275,6 +279,11 @@ post_meta:
 #   total_time: true
 
 
+
+# Manual define the border radius in codeblock
+# Leave it empty for the default 1
+codeblock:
+  border_radius: 
 
 # Wechat Subscriber
 #wechat_subscriber:
@@ -618,6 +627,8 @@ leancloud_visitors:
   app_id: #<app_id>
   app_key: #<app_key>
   # Dependencies: https://github.com/theme-next/hexo-leancloud-counter-security
+  # If you don't care about security in lc counter and just want to use it directly
+  # (without hexo-leancloud-counter-security plugin), set the `security` to `false`.
   security: true
   betterPerformance: false
 
@@ -944,4 +955,4 @@ js: js
 images: images
 
 # Theme version
-version: 6.0.4
+version: 6.1.0
