@@ -118,11 +118,11 @@ index_with_subtitle: false
 # Value before `||` delimeter is the target link.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, question icon will be loaded.
 menu:
-  Home: / || home
-  Resume: /resume/ || user
+  home: / || home
+  # resume: /resume/ || user
   categories: /categories/ || th
   tags: /tags/ || tags
-  Timelines: /archives/ || archive
+  timelines: /archives/ || archive
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
@@ -156,11 +156,11 @@ site_state: true
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 social:
-  GitHub: https://github.com/dandyxu || github
-  E-Mail: mailto:dandyjefferson@gmail.com || envelope
+  GitHub: https://github.com/cauu || github
+  E-Mail: mailto:cauu@163.com || envelope
   #Google: https://plus.google.com/yourname || google
-  Twitter: https://twitter.com/dandyjefferson || twitter
-  FB Page: https://www.facebook.com/wenqian.xu.1 || facebook
+  # Twitter: https://twitter.com/dandyjefferson || twitter
+  # FB Page: https://www.facebook.com/wenqian.xu.1 || facebook
   #VK Group: https://vk.com/yourname || vk
   #StackOverflow: https://stackoverflow.com/yourname || stack-overflow
   #YouTube: https://youtube.com/yourname || youtube
@@ -466,8 +466,8 @@ pangu: false
 
 # Disqus
 disqus:
-  enable: true
-  shortname: dandyxu
+  enable: false
+  shortname: cyf
   count: true
   lazyload: true
 
@@ -476,7 +476,7 @@ disqus:
 
 # changyan
 changyan:
-  enable: false
+  enable: true
   appid:
   appkey:
 
@@ -800,7 +800,7 @@ lazyload: false
 
 # Progress bar in the top during page loading.
 # Dependencies: https://github.com/theme-next/theme-next-pace
-pace: true
+pace: false
 # Themes list:
 #pace-theme-big-counter
 #pace-theme-bounce
